@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Minecraft Fishing</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>Minecraft Fishing</h1>
+
+    <!--  Instructions -->
+    <p>Click the picture to simulate catching a fish. In theory there is a 85% chance of catching a fish, a 10% chance
+      of catching junk and
+      a 5% chance of catching treasure.</p>
+
+    <!-- Image & Results  -->
+    <img id="mainImg" src="images/mcFishing.jpg" style="width: 800px; height: 300px;">
+    <p><button id="plus10">Plus 10</button><button id="plus100">Plus 100</button><button id="until50Clownfish">Until 50 Clownfish</button></p>
+    
+    <p>
+      <strong>TOTALS -> </strong>
+      Raw Fish: <span id="fish">0</span>|
+      Raw Salmon: <span id="salmon">0</span>|
+      Puffer Fish: <span id="puffer">0</span>|
+      Clown Fish: <span id="clown">0</span>|
+      Junk: <span id="junk">0</span> |
+      Treasure: <span id="treasure">0</span>|
+    </p>
+    <hr>
+
+    
+    <p id="results"></p>
+  </div>
+
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
